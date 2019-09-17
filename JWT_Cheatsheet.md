@@ -6,9 +6,9 @@
 curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb21lIjoicGF5bG9hZCJ9.4twFt5NiznN84AWoo1d7KO1T_yoc0Z6XOpOVswacPZg" https://hostname/api
 ```
 
-## Change the algorithm from RS256 to HS25
+## Change the algorithm from RS256 to HS256
 
-We assume the file public.pem contains the public key, then perform the following commands to sign data
+We assume the file public.pem contains the public key, then perform the following commands to sign data :
 
 1. Convert the public key (public.pem) into HEX with this command
 ```shell
